@@ -1,0 +1,51 @@
+/*Default style (Desktop)*/
+.container{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+.tablet{
+    display: none;
+}
+.Mobile{
+    display: none;
+}
+/*tablet*/
+@media(max-width:768px){
+    .container{
+        background: lightgreen;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: black;
+    }
+    .Mobile{
+        display: none;
+    }
+}
+/*Mobile*/
+@media(max-width:480px){
+    .container{
+        background: lightcoral;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .Mobile{
+        display: block;
+    }
+}
